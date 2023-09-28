@@ -133,8 +133,5 @@
       "typescript"
     ]
   },
-  "packageManager": "yarn@3.5.0",
-  "resolutions": {
-    "react-native-vision-camera@^3.0.0": "patch:react-native-vision-camera@npm%3A3.0.0#./.yarn/patches/react-native-vision-camera-npm-3.0.0-21b4ab30d7.patch"
-  }
+  "packageManager": "yarn@3.5.0"
 }
