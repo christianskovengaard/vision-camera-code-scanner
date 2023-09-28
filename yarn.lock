@@ -10583,9 +10583,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-vision-camera@npm:3.0.0":
-  version: 3.0.0
-  resolution: "react-native-vision-camera@npm:3.0.0"
+"react-native-vision-camera@npm:3.1.0":
+  version: 3.1.0
+  resolution: "react-native-vision-camera@npm:3.1.0"
   dependencies:
     string-hash-64: ^1.0.3
   peerDependencies:
@@ -10595,23 +10595,7 @@ __metadata:
   peerDependenciesMeta:
     react-native-worklets-core:
       optional: true
-  checksum: fd5530e15aa64ec72dfc2f069ba40d600c364ca6ee480f161c9847468ac198660fab3c6b1abbdd0b25dd9c46d5a9b7dae72ad356579542651f2975f58d9e79b6
-  languageName: node
-  linkType: hard
-
-"react-native-vision-camera@patch:react-native-vision-camera@npm%3A3.0.0#./.yarn/patches/react-native-vision-camera-npm-3.0.0-21b4ab30d7.patch::locator=vision-camera-code-scanner%40workspace%3A.":
-  version: 3.0.0
-  resolution: "react-native-vision-camera@patch:react-native-vision-camera@npm%3A3.0.0#./.yarn/patches/react-native-vision-camera-npm-3.0.0-21b4ab30d7.patch::version=3.0.0&hash=88f3c6&locator=vision-camera-code-scanner%40workspace%3A."
-  dependencies:
-    string-hash-64: ^1.0.3
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-    react-native-worklets-core: "*"
-  peerDependenciesMeta:
-    react-native-worklets-core:
-      optional: true
-  checksum: 1f69d41a2d14a8d59060f76cb06164a61c1eee501a921ac21918c221b27a6d620937ec2c557c69fac95d25395e262023397ca5a6ca4f2a621c0c750c29bd5eff
+  checksum: ac10e1539d14bbad1cd28bd4a9ec25cd824e5ed81b5381000ec58f1f538b6d737a9fcd78ddc061a3523e38258fe5de19f6de5d0b0094d2ea1c25162c8f1518b3
   languageName: node
   linkType: hard
 
@@ -12546,7 +12530,7 @@ __metadata:
     react: ^18.2.0
     react-native: ^0.72.3
     react-native-builder-bob: ^0.21.3
-    react-native-vision-camera: ^3.0.0
+    react-native-vision-camera: 3.1.0
     react-native-worklets-core: ^0.2.0
     release-it: ^16.1.3
     typescript: ^5.1.6
