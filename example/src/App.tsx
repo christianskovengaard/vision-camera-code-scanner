@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, Text } from 'react-native';
-import { Camera, useCameraDevices } from 'react-native-vision-camera';
+import { Camera, useCameraDevice } from 'react-native-vision-camera';
 import { BarcodeFormat, useScanBarcodes } from 'vision-camera-code-scanner';
 
 export default function App() {
@@ -10,8 +10,7 @@ export default function App() {
     BarcodeFormat.ALL_FORMATS,
     BarcodeFormat.QR_CODE,
   ]);
-  const devices = useCameraDevices();
-  const device = devices.back;
+  const device = useCameraDevice('back');
 
   React.useEffect(() => {
     (async () => {

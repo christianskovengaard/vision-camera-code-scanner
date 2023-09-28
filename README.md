@@ -36,8 +36,7 @@ import { useScanBarcodes, BarcodeFormat } from 'vision-camera-code-scanner';
 
 export default function App() {
   const [hasPermission, setHasPermission] = React.useState(false);
-  const devices = useCameraDevices();
-  const device = devices.back;
+  const device = useCameraDevice('back');
 
   const [frameProcessor, barcodes] = useScanBarcodes([BarcodeFormat.QR_CODE], {
     checkInverted: true,
