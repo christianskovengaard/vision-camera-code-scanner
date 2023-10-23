@@ -294,8 +294,7 @@ export const DefaultCodeScannerOptions = {
   checkInverted: false,
 };
 
-const plugin =
-  VisionCameraProxy.getFrameProcessorPlugin<Barcode[]>('scanCodes');
+const plugin = VisionCameraProxy.getFrameProcessorPlugin('scanCodes');
 
 /**
  * Scans barcodes in the passed frame with MLKit
@@ -308,7 +307,7 @@ export function scanBarcodes(
   frame: Frame,
   types: BarcodeFormat[],
   options: CodeScannerOptions = DefaultCodeScannerOptions
-): Barcode[] {
+): Barcode[] | any {
   'worklet';
 
   if (plugin == null)
